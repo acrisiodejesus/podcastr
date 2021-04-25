@@ -31,7 +31,7 @@ export default function Episode({ episode }: EpisodeProps) {
 
     return (
         <div className={styles.episode}>
-            <title>{episode.title}</title>
+            <title>{episode.title} | Podcastr</title>
             <div className={styles.thumbnailContainer}>
                 <Link href="/">
                     <button type="button">
